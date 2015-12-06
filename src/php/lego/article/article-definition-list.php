@@ -1,4 +1,4 @@
-<dl class="article-definition-list overflow-hidden center-block w300">
+<dl class="article-definition-list overflow-hidden">
 
 	<dt class="article-definition-list__definition clear pull-left">Фото:</dt>
 	<dd class="article-definition-list__describe pull-left">Getty Images</dd>
