@@ -1,0 +1,71 @@
+.social-icons {
+	padding-left: 10px;
+
+	&__item {
+		width: 40px;
+		height: 40px;
+		margin-left: 20px;
+
+		&:first-child {
+			margin-left: 0;
+		}
+	}
+
+		&__icon {
+			width: 100%;
+			height: 100%;
+			display: block;
+			position: relative;
+
+			&--fb {
+				background: #496199;
+				&::before {
+					position: relative;
+					color: #fff;
+					top: 12px;
+					left: 15px;
+				}
+			}
+
+			&--twitter {
+				background: #33acdb;
+				&::before {
+					position: relative;
+					color: #fff;
+					top: 13px;
+					left: 13px;
+				}
+			}
+
+			&--vk {
+				background: #557aa1;
+				&::before {
+					position: relative;
+					color: #fff;
+					top: 7px;
+					left: 6px;
+					font-size: 27px;
+				}
+			}
+
+			&--ok {
+				background: #f5922c;
+				&::before {
+					position: relative;
+					color: #fff;
+					top: 13px;
+					left: 15px;
+				}
+			}
+
+			&--mail {
+				background: #2e90d7;
+				&::before {
+					position: relative;
+					color: #f9ae43;
+					top: 13px;
+					left: 11px;
+				}
+			}
+		}
+}

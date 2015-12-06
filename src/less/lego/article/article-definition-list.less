@@ -1,0 +1,20 @@
+.article-definition-list {
+
+	@definition-indent:50px;
+	line-height: 18px;
+
+	&__definition,
+	&__describe {
+		text-transform: uppercase;
+		font-size: 11px;
+		font-weight: 700;
+	}
+
+	&__definition {
+		margin-right: -@definition-indent;
+	}
+
+	&__describe {
+		padding-left: @definition-indent;
+	}
+}

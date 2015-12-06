@@ -1,0 +1,76 @@
+.offer-list {
+
+	&__devices {
+		height: 265px;
+		padding-top: 20px;
+		position: relative;
+		width: 300px;
+		margin: auto;
+
+		&::after {
+			content: '';
+			position: absolute;
+			height: 25px;
+			width: 100%;
+			bottom: 0;
+			left: 0;
+		}
+	}
+
+	&__devices-iphone {
+		position: absolute;
+		bottom: -135px;
+		right: 8px;
+		-webkit-transition: bottom .5s;
+		-moz-transition: bottom .5s;
+		-ms-transition: bottom .5s;
+		-o-transition: bottom .5s;
+		transition: bottom .5s;
+
+		&:hover {
+			bottom: -115px;
+		}
+	}
+
+	&__devices-ipad {
+		-webkit-transition: margin-top .5s;
+		-moz-transition: margin-top .5s;
+		-ms-transition: margin-top .5s;
+		-o-transition: margin-top .5s;
+		transition: margin-top .5s;
+
+		&:hover {
+			margin-top: -20px;
+		}
+	}
+
+	&__description {
+
+		margin: 0 -10px 0 -10px;
+
+		&-title {
+			padding-top: 18px;
+			-webkit-box-shadow: 0 -25px 25px rgba(0, 0, 0, .2);
+			-moz-box-shadow: 0 -25px 25px rgba(0, 0, 0, .2);
+			box-shadow: 0 -25px 25px rgba(0, 0, 0, .2);
+			font: 20px/1 @font1;
+			text-transform: uppercase;
+		}
+
+		&-text {
+			width: 255px;
+			margin: auto;
+			padding: 6px 0 16px;
+			font-size: 15px;
+			line-height: 18px;
+			color: @color__text1;
+		}
+	}
+
+
+
+	&__appstore-btn {
+		font-size: 31px;
+		margin: auto;
+	}
+}

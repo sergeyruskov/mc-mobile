@@ -1,0 +1,21 @@
+.breadcrumb {
+	&__item {
+		&:first-child {
+			&::before {
+				display: none;
+			}
+		}
+
+		&::before {
+			content: '/';
+			float: left;
+			padding: 0 2px;
+			line-height: 20px;
+		}
+	}
+
+		&__link {
+			text-transform: uppercase;
+			font: 12px Arial;
+		}
+}

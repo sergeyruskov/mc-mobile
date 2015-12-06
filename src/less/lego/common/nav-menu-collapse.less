@@ -1,0 +1,28 @@
+.nav-menu-collapse {
+	@width-of-menu: 150px;
+	position: fixed;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	width: @width-of-menu;
+	height: 100%;
+	background: #fff;
+	padding-top: 100px;
+	margin-left: -@width-of-menu;
+	-webkit-transition: margin-left .5s;
+	-moz-transition: margin-left .5s;
+	-ms-transition: margin-left .5s;
+	-o-transition: margin-left .5s;
+	transition: margin-left .5s;
+
+	&__links {
+		font-size: 20px;
+		font-weight: 700;
+		line-height: 40px;
+		padding-left: 15px;
+	}
+
+	&--show {
+		margin-left: 0;
+	}
+}

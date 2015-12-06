@@ -1,0 +1,13 @@
+.define_font-face(@name, @filename, @weight : normal, @style : normal, @stretch : normal) {
+	@font-face {
+		font-family: "@{name}";
+		font-weight: @weight;
+		font-style: @style;
+		src: url('@{path__fonts}/@{filename}.eot');
+		src: local("@{name}"),
+		url('@{path__fonts}/@{filename}.eot?#iefix') format('embedded-opentype'),
+		url('@{path__fonts}/@{filename}.woff') format('woff'),
+		url('@{path__fonts}/@{filename}.ttf') format('truetype'),
+		url('@{path__fonts}/@{filename}.svg#@{name}') format('svg');
+	}
+}

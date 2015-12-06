@@ -1,0 +1,70 @@
+//todo подключть
+//bower/jquery-ui/themes/base/accordion
+.announcement-list {
+
+	.ui-accordion-content {
+		padding: 0 10px !important;
+		overflow: visible !important;
+	}
+
+	&__preview {
+		height: 67px;
+		padding: 0 10px !important;
+		overflow: hidden;
+
+		&:focus {
+			outline: none;
+		}
+
+		border-bottom: 1px solid @color1;
+
+		&::after {
+			content: "▼";
+			position: absolute;
+			right: 12px;
+			top: 50%;
+			margin-top: -6px;
+		}
+
+		&.ui-state-active {
+			border-bottom: none;
+
+			&::after {
+				content: "▲";
+			}
+		}
+	}
+
+	&__preview--psy {
+		&::before {
+			font-size: 401px;
+			line-height: 66px;
+			margin-left: -41px;
+			color: #dc4332;
+		}
+	}
+
+	&__preview--elle {
+		&::before {
+			font-size: 114px;
+			line-height: 73px;
+			margin-left: -7px;
+		}
+	}
+
+
+	&__preview--parents {
+		&::before {
+			font-size: 195px;
+			line-height: 63px;
+			margin-left: -7px;
+			color: #f13f35;
+		}
+	}
+
+	&__title {
+		font-size: 18px;
+		margin-top: 8px;
+		line-height: 20px;
+	}
+}

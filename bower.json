@@ -1,0 +1,13 @@
+{
+  "name": "mc-mobile",
+  "ignore": [
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "normalize-less": "latest",
+    "reset-css": "latest",
+    "jquery": "latest",
+    "jquery-ui": "jquery/jquery-ui#~1.11.4"
+  }
+}
